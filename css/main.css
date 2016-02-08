@@ -19,7 +19,7 @@ body {
 .titleAndNav {
   float: left;
   width: 70%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .clear {
@@ -58,11 +58,6 @@ p {
     margin: 18px auto;
 }
 
-/* header img {
-  height: auto;
-  width: 100%;
-}
- */
 div#hero-image {
   background: url('../img/official_header.jpg') no-repeat;
   background-size: contain;
@@ -90,6 +85,7 @@ nav {
 
 .main-nav {
   padding: 0;
+  margin: 20px;
 }
 
 .main-nav li {
@@ -132,6 +128,10 @@ aside {
 .social-links a {
   color: white;
   text-align: center;
+}
+
+.social-links li:hover {
+  font-weight: bold;
 }
 
 #watch video {
